@@ -1,0 +1,24 @@
+Their are 2 types of memory :
+1.heap : all the objects that are created using new key word is  are stored in heap memory 
+         in random manner.
+2.stack: all the references,local variables,primitive data are stored in stack memory in
+         organized manner.
+           
+ #in case of string we don't use new keyword for obj creation therefore these are stored in
+           SCP which is a subset of heap
+ #but when we use new key word then it will be in heap
+            #concatination of 2 strings:-
+   1) we use + operator for concatinating no of strings, but at a time only 2 strings will concate 
+    and combine new string is also a string  same will happen again and again every time 
+    new string will take new memory.Therfore when we have to concate larger no. of strings 
+    then it will consume more memory 
+      
+   2) Therefore to solve this problem we can use printf in place of "+"   
+    
+   3)But incase of toString we cant use printf because in toString() we returns the string
+   for solving this problem we use StringBuffer and StringBuider
+   *both have apend() which will concate 2 strings
+   *both are mutable
+   *saves in heap becase we are creating obj using new
+   *but we will pefer using StringBuider over  StringBuffer because () of StringBuffer are syncronyzed
+   means when all the threads will complete then we will get the ans therefore it is very slow  
