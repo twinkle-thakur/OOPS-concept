@@ -7,9 +7,9 @@ class A{
 }
 public class Private_cons {
 
-	public static void main(String[] args) {
-		A a=new A();
-		
-	}
+//	public static void main(String[] args) {
+//		A a=new A();
+//		
+//	}
 
 }

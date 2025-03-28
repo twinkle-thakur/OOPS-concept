@@ -3,7 +3,7 @@ interface P1{
 	public static void call() {
 		add(10,12);
 	}
-	private static void add(int x,int y) {
+	static void add(int x,int y) {
 		System.out.println(x+y);
 	}
 }
